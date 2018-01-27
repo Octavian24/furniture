@@ -1,16 +1,16 @@
 {
   "development": {
-    "username": "xxcfubeg",
-    "password": "gQPxg-IoszCT9Ca2HlWDf4z97H5cloRr",
-    "database": "xxcfubeg",
+    "username": "ekpauvby",
+    "password": "PbeLrciDRY10UxvJ3VpIqUPGK7VaUlVv",
+    "database": "ekpauvby",
     "host": "horton.elephantsql.com",
     "port": 5432,
     "dialect": "postgres"
   },
   "production": {
-    "username": "xxcfubeg",
-    "password": "gQPxg-IoszCT9Ca2HlWDf4z97H5cloRr",
-    "database": "xxcfubeg",
+    "username": "ekpauvby",
+    "password": "PbeLrciDRY10UxvJ3VpIqUPGK7VaUlVv",
+    "database": "ekpauvby",
     "host": "horton.elephantsql.com",
     "port": 5432,
     "dialect": "postgres"
