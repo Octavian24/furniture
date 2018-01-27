@@ -27,11 +27,13 @@ var index = require('./src/rest/index');
 var user = require('./src/rest/user');
 var employees = require('./src/rest/employees');
 var departments = require('./src/rest/departments');
+var invoices = require('./src/rest/invoices');
 
 app.use('/', index);
 app.use('/user', user);
 app.use('/employees', employees);
 app.use('/departments', departments);
+app.use('/invoices', invoices);
 
 
 // catch 404 and forward to error handler
