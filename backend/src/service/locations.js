@@ -52,9 +52,10 @@ exports.update = function (req, res) {
       });
     }
     
-    locations.id_invoice = req.body.id_invoice ;
-    locations.price = req.body.price ;
-    locations.Location_type = req.body.Location_type ;
+    locations.city = req.body.city ;
+    locations.address = req.body.address ;
+    locations.telephone = req.body.telephone ;
+    locations.email = req.body.email;
 
     locations.save(function(err) {
       if (err)
